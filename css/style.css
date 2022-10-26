@@ -1,0 +1,91 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: url(https://images.unsplash.com/photo-1557992260-ec58e38d363c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80) bottom no-repeat;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: bisque;
+    border-bottom: 1px dashed bisque;
+    font-size: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.news {
+    background-color: aliceblue;
+    padding: 50px 0 32px;
+}
+
+.newads::before {
+    color: crimson;
+    content: "NEW! ";
+}
+
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(24, 185, 2);
+}
+
+article:nth-child(even) {
+    background-color: #C2C5AA;
+}
+
+article a {
+    color: black;
+    text-decoration: none;
+}
+
+article a:hover {
+    color: darkgreen;
+}
+
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+.article-meta {
+    color: rgb(24, 185, 2);
+    margin-bottom: 5px;
+}
+
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links {
+    margin-bottom: 50px;
+}
+
+footer .links > a {
+    color: darkgreen;
+    padding: 0 25px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: darkgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
